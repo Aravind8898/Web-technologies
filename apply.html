@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>applypage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="Apply_3.js"></script>
+</head>
+<body class="page2" >
+    <form>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <br />
+            <label for="First Name">FirstName:</label>
+            <input type="text" id="fname" placeholder="Please enter the firstname" maxlength="10" /><br />
+            <br />
+            <label for="Last Name">LastName:</label>
+            <input type="text" id="lname" placeholder="Please enter the Lasttime" maxlength="10" /><br />
+            <br />
+            <label for="Emailid">Emailid:</label>
+            <input type="text" id="email" placeholder="Example@email.id" required /><br />
+            <br />
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male" />Male
+            <input type="radio" id="gender" name="gender" value="female" />Female
+            <input type="radio" id="gender" name="gender" value="Others" />Others
+            
+        </fieldset>
+        <fieldset>
+            <legend><b>Professional Details</b></legend>
+            <br />
+            <label for="Workexperience">Work Experience in Years:</label>
+            <input type="number" id="number" name="number" /><br />
+            <br />
+            <label for="Currentworkingjobtitle">Current Job title</label>
+            <input type="text" id="job" placeholder="Mention your current Job title" />
+            <br />
+            <br />
+            <label for="Update the Technical Skills">Update the Technical Skills:</label>
+            <br />
+             Word Countlimit: <span id="count">10</span><br />
+            <textarea rows="3" cols="30" id="skills" placeholder="Enter the skills here"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><b>Contact Details</b></legend>
+            <br />
+            <label for="contactno">ContactNo:</label>
+            <input type="tel" name="telephone" id="No" minlength="10" placeholder="xxx-xxx-xxxx" />
+            <br />
+            <br />
+            <label for="upload">Click here to upload resume:</label>
+            <input type="button" id="Upload" name="upload" value="UPLOAD"/>
+            <br />
+            <br />
+            <label for="Willing">Willing to re-locate if required:</label>
+            <select name="Choose yes or No" id="willing">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <br />
+        </fieldset>
+    </form>
+    <div>
+        <input type="submit" onclick="regis()" class="sub"/>
+    </div>
+</body>
+</html>

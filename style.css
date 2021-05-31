@@ -1,0 +1,64 @@
+body
+{
+    background-color:whitesmoke;
+}
+header 
+{
+    background-color: cadetblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-inline-end: 200px;
+    text-align: center;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    border: 5px solid black;
+    font: bold 15px arial, verdana;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 500;
+    
+}
+/*job details CSS design*/
+#demo {
+    text-align-last: center;
+    margin: 200px;
+    border: 2px solid red;
+    text-size-adjust: auto;
+}
+
+
+
+.sub {
+    text-align-last: right;
+}
+
+p {
+    font-display: auto;
+    margin-top: 500px;
+    margin-left: 1000px;
+    margin-bottom: 500px;
+}
+
+/*Apply.html CSS design*/
+.page2 {
+    color: black;
+    Font-size: 17px;
+    background-color:antiquewhite;
+ 
+}
+.job{
+    font-size:17px;
+    text-decoration-color:black;
+}
+legend{
+    font-size:30px;
+}
+label{
+    font-size:20px;
+    
+}
+
+
+
+
+
+
