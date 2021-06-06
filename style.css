@@ -17,8 +17,21 @@ header
     font-weight: 500;
     
 }
+h2{
+    text-align: right;
+    padding: 5px;
+    margin: 10px;
+
+}
 /*job details CSS design*/
 #demo {
+    text-align-last: center;
+    margin: 100px;
+    border: 2px solid red;
+    text-size-adjust: 150%;
+  
+}
+#next {
     text-align-last: center;
     margin: 200px;
     border: 2px solid red;

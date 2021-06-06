@@ -3,12 +3,10 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script>
-        function my() {
-            open("http://localhost/ca/apply.html");
-        }
-    </script>
+   
     <script type="text/javascript" src="job.js"></script>
+       
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,11 +14,30 @@
 <body>
     <header>
         <h1>Job Hunters</h1>
+        <h2>
+            <a href="#index.html">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#support">Support</a>
+        </h2>
     </header>
-    <div id="demo"></div>
+    
+    <a href="description.json" target="_blank">
+        <div id="demo"></div>
+    </a>
+
+
+
+    <script>
+        function my() {
+            open("http://localhost/ca/apply.html");
+        }
+
+
+    </script>
     <form>
         <p>
             <input type="button" value="Apply here" onclick="my()" />
+
         </p>
     </form>
 </body>
