@@ -3,43 +3,68 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   
-    <script type="text/javascript" src="job.js"></script>
-       
-
+    <script type="text/javascript" src="job.js"></script>  <!--javascript job.js attached here-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Viewport is a site page area visible to the user without scrolling.-->
+    
+
 </head>
 <body>
     <header>
         <h1>Job Hunters</h1>
-        <h2>
-            <a href="#index.html">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#support">Support</a>
-        </h2>
+        <a url="images/logo.png" id="logo">
+        </a>
+
+        <nav>
+            <a href="http://localhost/ca">Home</a> |
+            <a href="" id="message" autofocus onclick="alert('Cantact No:9000988841')">Contact</a>|
+            <a href="about.html">about</a>    <!--it will re-direct to about page-->
+        </nav>
     </header>
+
+     <!--Job details where data is in demo id-->
+    <div id="demo">
+        <a href="jobs.html#1" id="access" target="_blank">
+            <img src="4.gif" />
+        </a>
+    </div>
     
-    <a href="description.json" target="_blank">
-        <div id="demo"></div>
+    
+    <a href="jobs.html#2" id="access" target="_blank">   <!--Job details where data is in second id-->
+        <div id="second">
+            <img src="1.gif" />
+        </div>
     </a>
-
-
-
-    <script>
-        function my() {
-            open("http://localhost/ca/apply.html");
-        }
-
-
-    </script>
-    <form>
-        <p>
-            <input type="button" value="Apply here" onclick="my()" />
-
-        </p>
-    </form>
+    <a href="jobs.html#3" id="access" target="_blank">      <!--Job details where data is in three id-->
+        <div id="three">
+            <img src="images/5.gif" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">    <!--Job details where data is in four id-->
+        <div id="four">
+            <img src="images/logo1.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="five">
+            <img src="images/logo2.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="six">
+            <img src="images/logo3.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="seven">
+            <img src="images/logo4.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="eight">
+            <img src="images/logo5.png" />
+        </div>
+    </a>
 </body>
 </html>
 

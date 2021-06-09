@@ -1,4 +1,4 @@
-function regis() //using function to call the validations below:
+ function regis() //using function to call the validations below:
 {   
     var name = document.getElementById("fname").value;
     var name = document.getElementById("lname").value;
@@ -34,7 +34,7 @@ function regis() //using function to call the validations below:
         alert("please enter only numeric values")
     } 
     
-    else if (jo == "")
+    else if (jo == "")     //This feild should not leave blank
     {
         alert("You should not leave it blank!!")
 
@@ -55,11 +55,12 @@ function regis() //using function to call the validations below:
     {
         alert("Enter numeric values")
     }
-    else
+    else                             // if the above conditions pass then successfully application will submitted
     {
-        alert("Thank you for applying for this Job. We will reach out to you soon!!")
+        alert("Thank you for applying for this Job. We will reach out to you soon!!") 
               
     }
+
 }
 
 

@@ -3,19 +3,72 @@
     "id": "1",
     "JobTitle": "Technical Support Engineer",
     "Location": "Dublin 25",
-    "company": "IBM"
+    "company": "IBM",
+    "JobType": "Full time"
+
   },
   {
     "id": "2",
     "JobTitle": "Full stack developer",
     "Location": "Dublin 17",
-    "company": "TCS"
+    "company": "Genpact",
+    "JobType": "Part time"
   },
   {
-  "id": "3",
-  "JobTitle": "Solution Engineer",
-  "Location": "Greek",
-  "company": "Google"
+    "id": "3",
+    "JobTitle": "Solution Engineer",
+    "Location": "Greek",
+    "company": "Congizant",
+    "JobType": "Part time"
+  },
+  {
+    "id": "4",
+    "JobTitle": "front-end developer",
+    "Location": "Greek",
+    "company": "Synechron",
+    "JobType": "Full-time"
+  },
+  {
+    "id": "5",
+    "JobTitle": "Data Analyst",
+    "Location": "Dublin",
+    "company": "Rate",
+    "JobType": "Full time"
+  },
+  {
+    "id": "6",
+    "JobTitle": "Product Manager",
+    "Location": "califonia",
+    "company": "Konekt.IT",
+    "JobType": "full time"
+  },
+  {
+    "id": "7",
+    "JobTitle": "Vmware Administrator",
+    "Location": "France",
+    "company": "Falcon",
+    "JobType": "full time"
+  },
+  {
+    "id": "8",
+    "JobTitle": "Azure Engineer",
+    "Location": "UK",
+    "company": "Excel",
+    "JobType": "Part time"
+  },
+  {
+    "id": "9",
+    "JobTitle": "AWS Engineer",
+    "Location": "Germany",
+    "company": "IBM",
+    "JobType": "Full time"
+  },
+  {
+    "id": "10",
+    "JobTitle": "GCP Engineer",
+    "Location": "Netherlands",
+    "company": "Infosys",
+    "JobType": "Part time"
   }
 ]
 
