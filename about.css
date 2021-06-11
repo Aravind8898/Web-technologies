@@ -1,13 +1,10 @@
 body {                                 /*bacground image for the about page*/
-    background-image:url("job.jpg");  /*image*/
+    background-image:url("bg12.png");  /*image*/
     background-repeat:no-repeat;      /*No-repeat:Image will not repeat*/
-    background-size:cover;            /*complete page will be utilized*/
-   
-
 }
 details {
     float: right;                   /*data moved to right*/
-    color: white;
+    color: black;
     font-size: 25px;
     margin-top: 50px;
     font-display: block;

@@ -1,9 +1,10 @@
+/*Index.html page CSS scode below*/
 body {
     background-image: url("bg.gif");
     background-repeat:repeat;
     
 }
-header {
+header {                                  /*Job Hunters header CSS*/
     background-color: cadetblue;
     text-align: center;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -16,9 +17,7 @@ header {
     background-repeat: no-repeat;
   
 }
-
-
-nav {
+nav {                                      /*Navigation for home/about and contact*/
     text-align: right;
     font:bold 20px arial,verdana;
     display: block;
@@ -27,9 +26,9 @@ nav {
 
 
 }
-/*job details CSS design*/
-
-#demo, #second, #three, #four, #five, #six, #seven, #eight {
+/*All the job details CSS is apply below*/
+#demo,#second,#three,#four,#five,#six,#seven,#eight,#nine,#ten
+{
     text-align-last: center;
     margin: 50px 100px 20px 600px;
     border: 5px solid black;
@@ -40,15 +39,12 @@ nav {
     text-decoration: none;
 }
 
- img {
-      float: left;
-      margin-left: 0px 0px 0px 30px;
-      width: 300px;
-      height: 80px;
+img {                                       /*images that reflect on the job details */
+    float: left;
+    margin-left: 0px 0px 0px 30px;
+    width: 300px;
+    height: 100px;
 }
-
-
-
 
 #next {
     text-align-last: center;
@@ -56,8 +52,6 @@ nav {
     border: 2px solid white;
     text-size-adjust: auto;
 }
-
-
 
 .sub
 {
@@ -69,12 +63,8 @@ p {
     margin-left: 1500px;
     font-size:large;
 }
-
-   
-   
-
-/*Apply.html CSS design*/
-.page2 {
+/*Apply page CSS*/
+.page2 {                              /*Application form related Apply.html*/
     color: black;
     Font-size: 17px;
     background-color: antiquewhite;
@@ -105,7 +95,7 @@ fieldset {
      text-align-last: right;
      color: Highlight;
 }
-/*jobs.html styling*/
+  /*for job description*/
 details {
     font: normal 20px arial verdana;
     margin: 10px;

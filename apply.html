@@ -3,14 +3,15 @@
 <head>
     <title>applypage</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--used favicon.ico to show on the browser icon-->
-    <script type="text/javascript" src="Apply_3.js"></script>         <!--involving javascript -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--generate own favicon icon-->
+    <script type="text/javascript" src="Apply_3.js"></script>        
 
 </head>
 
 <body class="page2">
     <form>
         <fieldset>
+            <!--Validation for personal information-->
             <legend><b>Personal Information</b></legend>
             <br />
             <label for="First Name">FirstName:</label>
@@ -32,6 +33,7 @@
         </fieldset>
         <fieldset>
             <legend><b>Professional Details</b></legend>
+            <!--Validation for workexperience-->
             <br />
             <label for="Workexperience">Work Experience in Years:</label>
             <input type="number" id="number" name="number" /><br />
@@ -46,10 +48,11 @@
             <textarea rows="3" cols="30" id="skills" placeholder="Enter the skills here"></textarea>
         </fieldset>
         <fieldset>
+            <!--validation for contact details-->
             <legend><b>Contact Details</b></legend>
             <br />
             <label for="contactno">ContactNo:</label>
-            <input type="tel" name="telephone" id="No" minlength="10" placeholder="xxx-xxx-xxxx" />
+            <input type="tel" name="telephone" id="No" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="xxx-xxx-xxxx" />
             <br />
             <br />
             <label for="upload">Click here to upload resume:</label>
@@ -65,8 +68,7 @@
         </fieldset>
     </form>
     <div>
-        <input type="submit" onclick="regis()" class="sub" />      <!---sumbit button which will check 
-                                                                       all above validation from javascript-->
+        <input type="submit" onclick="regis()" class="sub" />      
     </div>
     
 </body>
