@@ -57,6 +57,7 @@
         alert("Enter numeric values with 10 digits")
     }
     
+    
     else                             
     {
         alert("Thank you for applying for this Job. We will reach out to you soon!!") 

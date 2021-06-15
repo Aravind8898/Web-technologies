@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="ipad.css">
+    <link rel="stylesheet" href="iphone.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="job.js"></script>  <!--javascript job.js attached here-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Viewport is a site page area visible to the user without scrolling.-->
-    
 
 </head>
 <body>
@@ -15,6 +16,7 @@
         <a url="images/logo.png" id="logo">
         </a>
 
+
         <nav>
             <a href="http://localhost/ca">Home</a> |
             <a href="" id="message" autofocus onclick="alert('Cantact No:9000988841')">Contact</a>|
@@ -22,52 +24,82 @@
         </nav>
     </header>
 
+    <div id="search2">
+        
+        <div id="Dropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput1" />
+            <a href="#JobType">JobType</a>
+            <a href="#Category">Category</a>
+            <button onclick="jobtypefilter()" class="dropbtn">filter</button>
+        </div>
 
-
-    <div id="demo">
-        <a href="jobs.html#1" id="access" target="_blank">
-            <img src="4.gif" />
-        </a>
     </div>
-    
+    <div id="search">
+        
+        <div id="drop" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput2" />
+            <a href="#JobType">FullTime</a>
+            <a href="#JobType">Parttime</a>
+            <a href="#category">permenant</a>
+            <a href="#category">contract</a>
+            <button onclick="fulltimefilter()" class="dropbtn">filter</button>
+        </div>
+    </div>
 
 
+    <script>
+        function jobtypefilter() {
+            debugger;
+            document.getElementById("myInput1").classList.toggle("show");
+        }
 
-     <a href="jobs.html#2" id="access" target="_blank">
-          <div id="second">
-              <img src="1.gif" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="three">
-              <img src="images/5.gif" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="four">
-              <img src="images/logo1.png" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="five">
-              <img src="images/logo2.png" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="six">
-              <img src="images/logo3.png" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="seven">
-              <img src="images/logo4.png" />
-          </div>
-      </a>
-      <a href="jobs.html#3" id="access" target="_blank">
-          <div id="eight">
-              <img src="images/logo5.png" />
-          </div>
-      </a>
+        function fulltimefilter() {
+            debugger;
+            document.getElementById("myInput2").classList.toggle("show");
+        }
+
+    </script>
+    <a href="jobs.html#1" id="access" target="_self">
+    <div id="demo">
+        <img src="4.gif" />
+    </div>
+    </a>
+
+    <a href="jobs.html#2" id="access" target="_blank">
+        <div id="second">
+            <img src="1.gif" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="three">
+            <img src="images/5.gif" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="four">
+            <img src="images/logo1.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="five">
+            <img src="images/logo2.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="six">
+            <img src="images/logo3.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="seven">
+            <img src="images/logo4.png" />
+        </div>
+    </a>
+    <a href="jobs.html#3" id="access" target="_blank">
+        <div id="eight">
+            <img src="images/logo5.png" />
+        </div>
+    </a>
 </body>
 </html>
 

@@ -1,0 +1,37 @@
+body{
+    background-color:antiquewhite;
+}
+header {
+    display: grid;
+    grid-auto-columns: 100% 100%;
+    text-align: center;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 5px solid black;
+    font: bold 25px italic,verdana;
+    background-color: cadetblue;
+}
+
+#demo, #second, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+    border: 2px solid black;
+    font: bold 20px italic,verdana;
+    color: black;
+    width: 1200px;
+    margin-left: 250px;
+    margin-top: 50px;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img {
+    display: grid;
+    float: right;
+    grid-template-columns: 30% 70%;
+    margin-left: 0px 0px 0px 30px;
+    width: 300px;
+    height: 125px;
+   
+    font: bold 16px italic,verdana;
+}
+
+

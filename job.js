@@ -1,4 +1,4 @@
-fetch('Jobs.json')       //used fetch function here
+fetch('Jobs.json')       //used fetch API here
     .then(function (response) {   //got the response from the JSON
         return response.json();
     })
@@ -8,16 +8,16 @@ fetch('Jobs.json')       //used fetch function here
         
         function appendData(data) //used append function
         {
-            var main = document.getElementById("demo")   //id demo is called in index.html 
-            var one = document.getElementById("second")
-            var two = document.getElementById("three")
-            var four = document.getElementById("four")
-            var five = document.getElementById("five")
-            var six = document.getElementById("six")
-            var seven = document.getElementById("seven")
-            var eight = document.getElementById("eight")
-            var nine = document.getElementById("nine")
-            var ten = document.getElementById("ten")
+            var main = document.getElementById("demo"),   //id demo is called in index.html 
+            one = document.getElementById("second"),
+            two = document.getElementById("three"),
+            four = document.getElementById("four"),
+            five = document.getElementById("five"),
+            six = document.getElementById("six"),
+            seven = document.getElementById("seven"),
+            eight = document.getElementById("eight"),
+            nine = document.getElementById("nine"),
+            ten = document.getElementById("ten");
            
                 i= 1
                 var div = document.createElement("div");
