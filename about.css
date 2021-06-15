@@ -11,3 +11,112 @@ details {
     width: 1000px;                 /*data width to diplay*/
     
 }
+body { /*bacground image for the about page*/
+    background-image: url("bg12.png"); /*image*/
+    background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+}
+
+details {
+    float: right; /*data moved to right*/
+    color: black;
+    font-size: 25px;
+    margin-top: 50px;
+    font-display: block;
+    width: 1000px; /*data width to diplay*/
+}
+
+@media only screen and (device-width: 640px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: right; /*data moved to right*/
+        color: black;
+        font-size: 20px;
+        margin-top: 50px;
+        font-display: block;
+        width: 400px; /*data width to diplay*/
+    }
+}
+
+@media only screen and (device-width: 360px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: left; /*data moved to right*/
+        color: black;
+        font-size: 30px;
+        margin-top: 600px;
+        font-display: block;
+        width: 1000px; /*data width to diplay*/
+    }
+}
+
+@media only screen and (device-width: 375px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: left; /*data moved to right*/
+        color: black;
+        font-size: 30px;
+        margin-top: 600px;
+        font-display: block;
+        width: 1000px; /*data width to diplay*/
+    }
+}
+
+@media only screen and (device-width: 812px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: left; /*data moved to right*/
+        color: black;
+        font-size: 30px;
+        margin-top: 600px;
+        font-display: block;
+        width: 1000px; /*data width to diplay*/
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: left; /*data moved to right*/
+        color: black;
+        font-size: 30px;
+        margin-top: 600px;
+        font-display: block;
+        width: 1000px; /*data width to diplay*/
+    }
+}
+
+@media only screen and (device-width: 1024px) {
+    body { /*bacground image for the about page*/
+        background-image: url("bg12.png"); /*image*/
+        background-repeat: no-repeat; /*No-repeat:Image will not repeat*/
+    }
+
+    details {
+        float: left; /*data moved to right*/
+        color: black;
+        font-size: 30px;
+        margin-top: 600px;
+        font-display: block;
+        width: 1000px; /*data width to diplay*/
+    }
+}
