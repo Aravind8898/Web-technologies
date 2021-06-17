@@ -15,50 +15,37 @@
 <body>
     <header>
         <h1>Job Hunters</h1>
-        <a url="images/logo.png" id="logo">
-        </a>
+       
         <nav>
             <a href="http://localhost/ca">Home</a> |
             <a href="" id="message" autofocus onclick="alert('Cantact No:9000988841')">Contact</a>|
             <a href="about.html">about</a>
         </nav>
     </header>
-
-    <div id="search2">
-
-        <div id="Dropdown" class="dropdown-content">
-            <input type="text" placeholder="Search.." id="myInput1" />
-            <a href="#JobType">JobType</a>
-            <a href="#Category">Category</a>
-            <button onclick="jobtypefilter()" class="dropbtn">filter</button>
+    <form>
+        <div class="row">
+            <div class="medium-6 columns">
+                <label>
+                  
+                    <select id="searchField">
+                        <option value="fulltime">Fulltime</option>
+                        <option value="Parttime">Parttime</option>
+                        <option value="contract">Contract</option>
+                        <option value="permanent">Parttime</option>
+                    </select>
+                </label>
+                <label> 
+                    
+                    <select id="search">
+                        <option value="JobType">JobType</option>
+                        <option value="Category">Category</option>
+                        
+                    </select>
+                </label>
+            </div>
         </div>
 
-    </div>
-    <div id="search">
-
-        <div id="drop" class="dropdown-content">
-            <input type="text" placeholder="Search.." id="myInput2" />
-            <a href="#JobType">FullTime</a>
-            <a href="#JobType">Parttime</a>
-            <a href="#category">permenant</a>
-            <a href="#category">contract</a>
-            <button onclick="fulltimefilter()" class="dropbtn">filter</button>
-        </div>
-    </div>
-
-
-    <script>
-        function jobtypefilter() {
-            debugger;
-            document.getElementById("myInput1").classList.toggle("show");
-        }
-
-        function fulltimefilter() {
-            debugger;
-            document.getElementById("myInput2").classList.toggle("show");
-        }
-
-    </script>
+   </form>
 
     <div id="demo">
         <img src="4.gif" />

@@ -10,6 +10,13 @@ header {
     font: bold 25px italic,verdana;
     background-color: cadetblue;
 }
+nav {
+    text-align: right;
+    font: bold 20px arial,verdana;
+    display: block;
+    color: black;
+    margin-right: 10px;
+}
 
 #demo, #second, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
     display: grid;
@@ -20,7 +27,7 @@ header {
     color: black;
     width: 1200px;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 70px;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 img {
@@ -57,3 +64,39 @@ details {
     width: 1000px;
     height: 150px;
 }
+
+#searchField {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    text-align: left;
+    border: 2px solid black;
+    font: bold 20px italic,verdana;
+    color: black;
+    width: 250px;
+    margin-left: 550px;
+    margin-top: 15px;
+    
+    position: absolute;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+label {
+    font: bold 16px arial,verdana;
+   
+}
+#search {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    text-align: left;
+    border: 2px solid black;
+    font: bold 20px italic,verdana;
+    color: black;
+    width: 250px;
+    margin-left: 900px;
+    margin-top: 15px;
+    
+    position:absolute;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+

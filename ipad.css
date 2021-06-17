@@ -51,6 +51,38 @@
         width: 500px;
         height: 100px;
     }
+
+    #searchField {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 20px italic,verdana;
+        color: black;
+        width: 150px;
+        margin-left: 150px;
+        margin-top: 15px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    label {
+        font: bold 16px arial,verdana;
+    }
+
+    #search {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 20px italic,verdana;
+        color: black;
+        width: 150px;
+        margin-left: 400px;
+        margin-top: 15px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
 }
 
 @media only screen and (device-width: 1024px) {
@@ -98,5 +130,33 @@
         margin: 10px 150px;
         width: 600px;
         height: 100px;
+    }
+
+    #searchField {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 20px italic,verdana;
+        color: black;
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 15px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #search {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 20px italic,verdana;
+        color: black;
+        width: 250px;
+        margin-left: 550px;
+        margin-top: 15px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 }

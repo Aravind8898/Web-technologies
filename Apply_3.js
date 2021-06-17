@@ -48,15 +48,22 @@
     {
         alert("Max words 100")
     }
-    else if (noo == "")
+   /* else if (noo == "")
     {
         alert("Update the Mobile Number")
     }
     else if (!numbers.test(noo))
     {
         alert("Enter numeric values with 10 digits")
+    }*/
+    else if (isNaN(noo) || noo > 10000000000 )
+    {
+        alert("Please enter valid contact number")
     }
-    
+    else if (noo < 10000000000)
+    {
+        alert("Please enter the complete number")
+    }
     
     else                             
     {

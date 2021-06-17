@@ -17,7 +17,7 @@
         color: black;
         width: 270px;
         margin-left: 40px;
-        margin-top: 30px;
+        margin-top: 40px;
         box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
@@ -52,6 +52,35 @@
         width: 200px;
         height: 100px;
     }
+
+    #searchField {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 13px italic,verdana;
+        color: black;
+        width: 90px;
+        margin-left: 70px;
+        margin-top: 10px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+
+    #search {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 13px italic,verdana;
+        color: black;
+        width: 90px;
+        margin-left: 210px;
+        margin-top: 10px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
 }
 
 @media only screen and (device-width: 640px) {
@@ -74,7 +103,7 @@
         width: 400px;
         margin-left: 90px;
         margin-right: 150px;
-        margin-top: 30px;
+        margin-top: 40px;
         box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
@@ -95,7 +124,7 @@
         font: bold 10px arial, verdana;
         color: blue;
     }
-   
+
     /*job description*/
     details {
         font: normal 20px arial verdana;
@@ -109,5 +138,34 @@
         margin: 10px 150px 50px 50px;
         width: 300px;
         height: 100px;
+    }
+
+    #searchField {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 13px italic,verdana;
+        color: black;
+        width: 130px;
+        margin-left: 100px;
+        margin-top: 10px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+
+    #search {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        text-align: left;
+        border: 2px solid black;
+        font: bold 13px italic,verdana;
+        color: black;
+        width: 130px;
+        margin-left: 350px;
+        margin-top: 10px;
+        position: absolute;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 }

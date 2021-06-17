@@ -69,6 +69,8 @@ fetch('Jobs.json')       //used fetch API here
              div.innerHTML = 'JobTitle: ' + data[i].JobTitle + "<br>" + 'Location: ' + data[i].Location + "<br>" + 'Company: ' + data[i].company + "<br>" + 'JobType: ' + data[i].JobType + "<br>" + 'category: ' + data[i].category;
              ten.appendChild(div);
         }
+        
+       
        
     })
 
