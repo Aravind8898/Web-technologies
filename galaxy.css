@@ -2,11 +2,18 @@
     header {
         display: grid;
         grid-auto-columns: 100% 100%;
-        background-color: cornflowerblue;
+        background-color: cadetblue;
         text-align: center;
         box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         border: 5px solid black;
         font: bold 20px italic, verdana;
+    }
+    nav {
+        text-align: right;
+        font: bold 15px arial,verdana;
+        display: block;
+        color: black;
+        margin-right: 10px;
     }
 
     #demo, #second, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
@@ -87,7 +94,7 @@
     header {
         display: grid;
         grid-auto-columns: 100% 100%;
-        background-color: cornflowerblue;
+        background-color: cadetblue;
         text-align: center;
         box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         border: 5px solid black;

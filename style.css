@@ -1,34 +1,7 @@
-/*Index.html page CSS scode below*/
-body {
-    background-color:antiquewhite;
-    background-repeat:repeat;
-    
-}
-/*Job Hunters header CSS*/
-header {
-    
-    background-color: cadetblue;
-    text-align: center;
-    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    color: white;
-    border: 5px solid black;
-    font: bold 25px italic,verdana;
-    text-shadow: 2px 2px 5px black;
-    font-weight: 500;
-    background-image: url("images/logo.png");
-    background-repeat: no-repeat;
-}
-/*Navigation for home/about and contact*/
-nav {    
-   
-    text-align: right;
-    font:bold 20px arial,verdana;
-    display: block;
-    color: black;
-    margin-right: 10px;
 
 
-}
+
+
 /*All the job details CSS is apply below*/
 #demo, #second, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
     
@@ -112,22 +85,8 @@ details {
     height: 150px;
 }
 
-/*search*/
-#search {
-    margin: 50px 10px 1px 600px;
-    box-sizing: border-box;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-#search2{
-    
-}
+
+
 
 
 

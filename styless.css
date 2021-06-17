@@ -58,6 +58,15 @@ details {
     box-shadow: 4px 4px 5px black;
     border: 2px solid black;
 }
+#apply {
+    float: right;
+    display: inline-block;
+    margin: -30px 20px;
+    width: 100px;
+    height: 30px;
+    font: bold 15px arial, verdana;
+    color: blue;
+}
 
 #images {
     margin: 2px 250px;
@@ -97,6 +106,7 @@ label {
     position:absolute;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 
 
 
