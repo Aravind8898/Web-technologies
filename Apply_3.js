@@ -9,7 +9,7 @@
     var noo = document.getElementById("No").value;
 
     
-    var letters = /^[A-Za-z]+$/;
+    var letters = /^[A-Za-z]+$/;    // used regis here
     var emails = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var numbers = /^([0-9])+$/;
      
@@ -48,14 +48,7 @@
     {
         alert("Max words 100")
     }
-   /* else if (noo == "")
-    {
-        alert("Update the Mobile Number")
-    }
-    else if (!numbers.test(noo))
-    {
-        alert("Enter numeric values with 10 digits")
-    }*/
+   
     else if (isNaN(noo) || noo > 10000000000 )
     {
         alert("Please enter valid contact number")

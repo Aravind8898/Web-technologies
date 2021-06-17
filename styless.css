@@ -1,13 +1,13 @@
 body{
-    background-color:antiquewhite;
+    background-color:antiquewhite; /*background color*/
 }
 header {
     display: grid;
     grid-auto-columns: 100% 100%;
     text-align: center;
-    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
     border: 5px solid black;
-    font: bold 25px italic,verdana;
+    font: bold 25px italic,verdana; /*changing font size*/
     background-color: cadetblue;
 }
 nav {
@@ -20,12 +20,12 @@ nav {
 
 #demo, #second, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 70%; 
     text-align: left;
     border: 2px solid black;
     font: bold 20px italic,verdana;
     color: black;
-    width: 1200px;
+    width: 1200px; /* adjusting the width*/
     margin-left: 250px;
     margin-top: 70px;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -74,7 +74,7 @@ details {
     height: 150px;
 }
 
-#searchField {
+#searchField {                     /*filters*/
     display: grid;
     grid-template-columns: 30% 50%;
     text-align: left;
@@ -84,7 +84,6 @@ details {
     width: 250px;
     margin-left: 550px;
     margin-top: 15px;
-    
     position: absolute;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -92,7 +91,7 @@ label {
     font: bold 16px arial,verdana;
    
 }
-#search {
+#search {                           /*filters*/
     display: grid;
     grid-template-columns: 30% 50%;
     text-align: left;
